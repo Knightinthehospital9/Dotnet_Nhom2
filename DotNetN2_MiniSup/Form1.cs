@@ -16,5 +16,7 @@ namespace DotNetN2_MiniSup
         {
             InitializeComponent();
         }
+
+        
     }
 }
