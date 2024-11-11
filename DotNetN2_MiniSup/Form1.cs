@@ -17,6 +17,28 @@ namespace DotNetN2_MiniSup
             InitializeComponent();
         }
 
-        
+        private void quảnLíNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmnhacc frmnhacc = new Frmnhacc();
+            frmnhacc.Show();
+        }
+
+        private void danhMụcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDanhmuc frmDanhmuc = new FrmDanhmuc();
+            frmDanhmuc.Show();
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmKhachhang frm = new FrmKhachhang();  
+            frm.Show();
+        }
+
+        private void chươngTrìnhKhuyếnMãiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVoucher frmVoucher = new FrmVoucher();   
+            frmVoucher.Show();
+        }
     }
 }
